@@ -1,45 +1,39 @@
-Identifying Dog Breeds using Pre-trained Image Classifier
+<h2>**Identifying Dog Breeds using Pre-trained Image Classifier**</h2>
 
-🐶 Welcome to the my AI Programming with Python Nanodegree project at Udacity, where we embark on an exciting journey to classify dog breeds using a powerful pre-trained deep learning model. Let's build a command-line application that effortlessly categorizes images of dogs into various breeds.
+🐶 Welcome to our captivating project of classifying dog breeds using a pre-trained image classifier! Dive into the enchanting world of furry friends with ease.
 
-📚 Project Overview
+📚 **Project Overview**
 
-The project comprises the following key components:
+1️⃣ check_images.py: The script acts as the gateway to our application, allowing easy classification of dog images via command-line arguments.
 
-🔍 check_images.py: The heart of our application, this script serves as the main entry point. By providing command-line arguments, you can specify the directory containing the images, the pre-trained model architecture you wish to employ, and the file that contains the dog breed labels.
+2️⃣ Pre-trained Model: We utilize a powerful pre-trained model for accurate image classification, with the option to choose different architectures.
 
-💡 Pre-trained Model: Our application harnesses the power of a pre-trained deep learning model to accurately classify the images. While the default model architecture is VGG, you can easily switch to a different one using the --arch command-line argument.
+3️⃣ Dog Breed Labels: A comprehensive list of breed labels enhances accuracy in breed classification.
 
-📝 Dog Breed Labels: To enhance our classification process, we rely on a file (dognames.txt by default) that contains an extensive list of dog breed labels. These labels play a crucial role in accurately classifying the images and displaying the predicted breed.
+💻 **Getting Started**
 
-💻 Getting Started
+1️⃣ Clone the repository.
 
-To get started with this captivating project, follow these steps:
+2️⃣ Install dependencies.
 
-1️⃣ Clone the project repository: [GitHub Repository](https://github.com/udacity/AIPND-revision)
+3️⃣ Download pre-trained model weights.
 
-2️⃣ Install the required dependencies: Seamlessly install the necessary dependencies by executing the command pip install -r requirements.txt. Let the magic begin!
+4️⃣ Run the script with desired arguments.
 
-3️⃣ Download the pre-trained model weights: Elevate your application by downloading the pre-trained model weights and placing them in the model_weights directory. You can find the download link in the project instructions. Prepare for excellence!
+🎯 **Command-line Arguments**
 
-4️⃣ Run the script check_images.py: Witness the power of AI in action by running the script with your desired command-line arguments.
+--dir: Specify the image directory. Default: pet_images/.
 
-🎯 Command-line Arguments
+--arch: Choose the pre-trained model architecture. Default: vgg.
 
-This application supports the following command-line arguments:
+--dogfile: Provide the dog breed label file. Default: dognames.txt.
 
---dir: Unleash the potential by specifying the directory of the images to be classified. Default: pet_images/.
+📊 **Results**
 
---arch: Empower your application with the pre-trained model architecture of your choice. Default: vgg.
+Get insightful results, including image count, accuracy percentages, and highlights of incorrect breed assignments.
 
---dogfile: Fuel the classification engine by specifying the file containing the dog breed labels. Default: dognames.txt.
+📜 **License**
 
-📊 Results
+This captivating project is licensed under the MIT License.
 
-Prepare to be amazed! After running the script, our application will reveal impressive results, including the number of images processed, the percentage of correct matches, the accuracy of dog classifications, the precision of breed classifications, and even the accuracy of identifying non-dog images. Furthermore, it will showcase any incorrect dog breed assignments, allowing for continuous improvement.
-
-📜 License
-
-This captivating project is licensed under the MIT License. Let your creativity flourish!
-
-🌟 Feel free to check out the project repository and immerse yourself in the fascinating world of dog breed classification! Let's embark on an AI-powered adventure together. 🚀🐾
+🌟 Feel free to explore the project repository and embark on an AI-powered adventure in dog breed classification!
