@@ -1,6 +1,6 @@
 <h2>**Identifying Dog Breeds using Pre-trained Image Classifier**</h2>
 
-🐶 Welcome to our captivating project of classifying dog breeds using a pre-trained image classifier! Dive into the enchanting world of furry friends with ease.
+🐶 Welcome to my AI Programming with Python Nanodegree project 1 at Udacity, where I embark on an exciting journey to classify dog breeds using a powerful pre-trained deep learning model. Let's build a command-line application that effortlessly categorizes images of dogs into various breeds.
 
 📚 **Project Overview**
 
